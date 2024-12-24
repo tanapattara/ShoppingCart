@@ -7,7 +7,7 @@ namespace ShoppingCart
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonCheckout_Click(object sender, EventArgs e)
         {
             //get amount
             string strCoffeePrice = tbCoffeePrice.Text;
@@ -16,6 +16,7 @@ namespace ShoppingCart
 
             int iCoffeePrice = 0;
             int iCoffeeQuantity = 0;
+
             try
             {
                 // convert string to int
